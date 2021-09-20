@@ -10,7 +10,6 @@ const loadCity = () => {
 }
 
 const displayCity = city => {
-    console.log(city)
     const infoContainer = document.getElementById('info-container');
     infoContainer.innerHTML = `
     <div class="weather-status text-white text-center">
