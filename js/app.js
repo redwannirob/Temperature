@@ -1,6 +1,7 @@
 const loadCity = () => {
     const searchField = document.getElementById('search-field');
     const searchText = searchField.value;
+    searchField.value = '';
 
     const key = `d3d2f2091710b0db60a012275a480ea3`;
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${searchText}&appid=${key}&units=metric`;
